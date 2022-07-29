@@ -1,0 +1,30 @@
+@import 'Variables.module';
+
+.root {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.input {
+    min-width: 50em;
+    align-self: center;
+    padding: 0.5em;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 0.5em;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 0.1em $colorItemBorder;
+    background-color: $colorItemBackground;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}

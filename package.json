@@ -1,0 +1,34 @@
+{
+    "name": "github-searcher",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "postinstall": "yarn patch",
+        "patch": "./scripts/patch.sh"
+    },
+    "dependencies": {
+        "mobx": "^6.6.1",
+        "mobx-react-lite": "^3.4.0",
+        "next": "12.2.3",
+        "octokit": "^2.0.4",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "reflect-metadata": "^0.1.13",
+        "typedi": "^0.10.0"
+    },
+    "devDependencies": {
+        "@types/node": "18.6.2",
+        "@types/react": "18.0.15",
+        "@types/react-dom": "18.0.6",
+        "eslint": "8.20.0",
+        "eslint-config-next": "12.2.3",
+        "path": "^0.12.7",
+        "sass": "^1.54.0",
+        "sharp": "^0.30.7",
+        "typescript": "4.7.4"
+    }
+}
